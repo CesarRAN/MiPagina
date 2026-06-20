@@ -1,1 +1,10 @@
 planes/
+node_modules/
+.env
+*.db
+blog.db
+assets/blog/*.jpg
+assets/blog/*.png
+assets/blog/*.jpeg
+assets/blog/*.webp
+assets/blog/*.gif

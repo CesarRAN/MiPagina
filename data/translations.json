@@ -6,6 +6,7 @@
       "experience": "Experiencia",
       "projects": "Proyectos",
       "education": "Formación",
+      "blog": "Blog",
       "contact": "Contacto"
     },
     "hero": {
@@ -203,6 +204,7 @@
       "experience": "Experience",
       "projects": "Projects",
       "education": "Education",
+      "blog": "Blog",
       "contact": "Contact"
     },
     "hero": {

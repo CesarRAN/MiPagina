@@ -9,6 +9,7 @@ const translations = {
       experience: "Experiencia",
       projects: "Proyectos",
       education: "Formación",
+      blog: "Blog",
       contact: "Contacto"
     },
     hero: {
@@ -108,45 +109,10 @@ const translations = {
       subtitle: "Mi preparación académica y certificaciones",
       items: [
         {
-          title: "Ingeniería en Cibernética y Sistemas Computacionales",
-          institution: "Universidad La Salle",
-          period: "2018 — 2021",
-          description: "Formación en ingeniería computacional, sistemas y cibernética.",
-          type: "degree"
-        },
-        {
-          title: "Licenciatura en Física",
-          institution: "Universidad Nacional Autónoma de México (UNAM)",
-          period: "2019 — 2025",
-          description: "Formación en física teórica, experimental y computacional.",
-          type: "degree"
-        },
-        {
-          title: "CCNAv7: Enterprise Networking, Security, and Automation",
-          institution: "Cisco",
-          period: "2020",
-          description: "Certificación en redes empresariales, seguridad y automatización.",
-          type: "cert"
-        },
-        {
-          title: "Data Science Foundations",
-          institution: "IBM",
-          period: "2021",
-          description: "Fundamentos de ciencia de datos y análisis estadístico.",
-          type: "cert"
-        },
-        {
-          title: "Big Data Foundations",
-          institution: "IBM",
-          period: "2021",
-          description: "Fundamentos de big data y procesamiento de grandes volúmenes de información.",
-          type: "cert"
-        },
-        {
-          title: "EGEL de Licenciatura en Ingeniería Computacional con resultado Sobresaliente",
-          institution: "CENEVAL",
-          period: "2021",
-          description: "Evaluación general de egreso de licenciatura con resultado sobresaliente.",
+          title: "Diplomado en Ciencia de Datos",
+          institution: "FES Acatlán — UNAM",
+          period: "Ago 2025 — Jun 2026",
+          description: "Diplomado especializado en ciencia de datos y machine learning. Concluido el 15 de junio.",
           type: "cert"
         },
         {
@@ -157,11 +123,46 @@ const translations = {
           type: "cert"
         },
         {
-          title: "Diplomado en Ciencia de Datos",
-          institution: "FES Acatlán — UNAM",
-          period: "2025 — Presente",
-          description: "Diplomado especializado en ciencia de datos y machine learning.",
+          title: "EGEL de Licenciatura en Ingeniería Computacional con resultado Sobresaliente",
+          institution: "CENEVAL",
+          period: "2021",
+          description: "Evaluación general de egreso de licenciatura con resultado sobresaliente.",
           type: "cert"
+        },
+        {
+          title: "Big Data Foundations",
+          institution: "IBM",
+          period: "2021",
+          description: "Fundamentos de big data y procesamiento de grandes volúmenes de información.",
+          type: "cert"
+        },
+        {
+          title: "Data Science Foundations",
+          institution: "IBM",
+          period: "2021",
+          description: "Fundamentos de ciencia de datos y análisis estadístico.",
+          type: "cert"
+        },
+        {
+          title: "CCNAv7: Enterprise Networking, Security, and Automation",
+          institution: "Cisco",
+          period: "2020",
+          description: "Certificación en redes empresariales, seguridad y automatización.",
+          type: "cert"
+        },
+        {
+          title: "Licenciatura en Física",
+          institution: "Universidad Nacional Autónoma de México (UNAM)",
+          period: "2019 — 2025",
+          description: "Formación en física teórica, experimental y computacional.",
+          type: "degree"
+        },
+        {
+          title: "Ingeniería en Cibernética y Sistemas Computacionales",
+          institution: "Universidad La Salle",
+          period: "2018 — 2021",
+          description: "Formación en ingeniería computacional, sistemas y cibernética.",
+          type: "degree"
         }
       ],
       degrees: "Educación",
@@ -207,6 +208,7 @@ const translations = {
       experience: "Experience",
       projects: "Projects",
       education: "Education",
+      blog: "Blog",
       contact: "Contact"
     },
     hero: {
@@ -306,45 +308,10 @@ const translations = {
       subtitle: "My academic background and certifications",
       items: [
         {
-          title: "Bachelor's in Cybernetics and Computer Systems Engineering",
-          institution: "Universidad La Salle",
-          period: "2018 — 2021",
-          description: "Training in computational engineering, systems and cybernetics.",
-          type: "degree"
-        },
-        {
-          title: "Bachelor's in Physics",
-          institution: "Universidad Nacional Autónoma de México (UNAM)",
-          period: "2019 — 2025",
-          description: "Training in theoretical, experimental and computational physics.",
-          type: "degree"
-        },
-        {
-          title: "CCNAv7: Enterprise Networking, Security, and Automation",
-          institution: "Cisco",
-          period: "2020",
-          description: "Certification in enterprise networking, security and automation.",
-          type: "cert"
-        },
-        {
-          title: "Data Science Foundations",
-          institution: "IBM",
-          period: "2021",
-          description: "Foundations of data science and statistical analysis.",
-          type: "cert"
-        },
-        {
-          title: "Big Data Foundations",
-          institution: "IBM",
-          period: "2021",
-          description: "Foundations of big data and processing of large volumes of information.",
-          type: "cert"
-        },
-        {
-          title: "EGEL Bachelor's in Computational Engineering with Outstanding Result",
-          institution: "CENEVAL",
-          period: "2021",
-          description: "General graduation evaluation with outstanding result.",
+          title: "Diploma in Data Science",
+          institution: "FES Acatlán — UNAM",
+          period: "Aug 2025 — Jun 2026",
+          description: "Specialized diploma in data science and machine learning. Completed on June 15.",
           type: "cert"
         },
         {
@@ -355,11 +322,46 @@ const translations = {
           type: "cert"
         },
         {
-          title: "Diploma in Data Science",
-          institution: "FES Acatlán — UNAM",
-          period: "2025 — Present",
-          description: "Specialized diploma in data science and machine learning.",
+          title: "EGEL Bachelor's in Computational Engineering with Outstanding Result",
+          institution: "CENEVAL",
+          period: "2021",
+          description: "General graduation evaluation with outstanding result.",
           type: "cert"
+        },
+        {
+          title: "Big Data Foundations",
+          institution: "IBM",
+          period: "2021",
+          description: "Foundations of big data and processing of large volumes of information.",
+          type: "cert"
+        },
+        {
+          title: "Data Science Foundations",
+          institution: "IBM",
+          period: "2021",
+          description: "Foundations of data science and statistical analysis.",
+          type: "cert"
+        },
+        {
+          title: "CCNAv7: Enterprise Networking, Security, and Automation",
+          institution: "Cisco",
+          period: "2020",
+          description: "Certification in enterprise networking, security and automation.",
+          type: "cert"
+        },
+        {
+          title: "Bachelor's in Physics",
+          institution: "Universidad Nacional Autónoma de México (UNAM)",
+          period: "2019 — 2025",
+          description: "Training in theoretical, experimental and computational physics.",
+          type: "degree"
+        },
+        {
+          title: "Bachelor's in Cybernetics and Computer Systems Engineering",
+          institution: "Universidad La Salle",
+          period: "2018 — 2021",
+          description: "Training in computational engineering, systems and cybernetics.",
+          type: "degree"
         }
       ],
       degrees: "Education",
