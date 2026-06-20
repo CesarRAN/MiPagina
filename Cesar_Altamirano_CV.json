@@ -1,0 +1,170 @@
+{
+  "nombre_completo": "Cesar Ricardo Altamirano Nava",
+  "encabezado": {
+    "ubicacion": "Ciudad de México, México",
+    "anio_cv": 2026
+  },
+  "informacion_personal": {
+    "pais": "México",
+    "ciudad": "Ciudad de México",
+    "edad": 26
+  },
+  "contacto": {
+    "telefono": "+52 55 4483 4571",
+    "correo": "cran99@yahoo.com",
+    "linkedin": {
+      "nombre_mostrado": "César Altamirano",
+      "url": null
+    },
+    "github": {
+      "usuario": "CesarRAN",
+      "url": "https://github.com/CesarRAN"
+    }
+  },
+  "areas_de_interes": [
+    "Data Science",
+    "Deep Learning",
+    "Investigación de operaciones",
+    "Sistemas dinámicos"
+  ],
+  "habilidades_blandas": [
+    "Trabajo en equipo",
+    "Autodidacta",
+    "Responsable"
+  ],
+  "estudios": [
+    {
+      "periodo": {
+        "inicio": 2018,
+        "fin": 2021
+      },
+      "grado": "Ingeniería en Cibernética y Sistemas Computacionales",
+      "institucion": "Universidad La Salle",
+      "ubicacion": "Ciudad de México"
+    },
+    {
+      "periodo": {
+        "inicio": 2019,
+        "fin": 2025
+      },
+      "grado": "Licenciatura en Física",
+      "institucion": "Universidad Nacional Autónoma de México",
+      "campus": "Ciudad Universitaria",
+      "ubicacion": "Ciudad de México"
+    }
+  ],
+  "experiencia": [
+    {
+      "periodo": {
+        "inicio": 2025,
+        "fin": null,
+        "actual": true
+      },
+      "puesto": "Data Analyst",
+      "organizacion": "FINDEP",
+      "ubicacion": "Ciudad de México",
+      "descripcion": [
+        "Diseño de consultas y dashboards para el seguimiento de indicadores de portafolio, colocaciones, seguros, bonificaciones y cobranza.",
+        "Desarrollo de una métrica de desempeño para gestores de cobranza.",
+        "Automatización de reportes de campañas de ofertas."
+      ]
+    },
+    {
+      "periodo": {
+        "inicio": 2024,
+        "fin": 2024,
+        "actual": false
+      },
+      "puesto": "Análisis económico con Machine Learning",
+      "organizacion": "Instituto de Investigaciones Económicas",
+      "ubicacion": "Ciudad Universitaria, Ciudad de México",
+      "descripcion": [
+        "Desarrollo de programas para el análisis de redes y matrices de insumo-producto del comercio entre Estados Unidos, Canadá y México.",
+        "Aplicación de índices de centralidad de red, clustering y pretopologías."
+      ]
+    },
+    {
+      "periodo": {
+        "inicio": 2023,
+        "fin": 2023,
+        "actual": false
+      },
+      "puesto": "Web Scraping",
+      "organizacion": "Banco de México",
+      "ubicacion": "Ciudad de México",
+      "descripcion": [
+        "Automatización de procesos para obtener información de productos financieros mediante web scraping."
+      ]
+    }
+  ],
+  "aptitudes": {
+    "visualizacion": [
+      "Excel",
+      "Python",
+      "Looker Studio"
+    ],
+    "web_scraping": [
+      "Selenium",
+      "Beautiful Soup",
+      "Python"
+    ],
+    "bases_de_datos": [
+      "BigQuery",
+      "Python"
+    ],
+    "software": [
+      "Git",
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Administración de sistemas Unix/Linux"
+    ],
+    "computo_cientifico": [
+      "Julia",
+      "Cómputo científico",
+      "Análisis estadístico de datos"
+    ]
+  },
+  "idiomas": [
+    {
+      "idioma": "Inglés",
+      "nivel": "B1"
+    }
+  ],
+  "cursos_y_certificaciones": [
+    {
+      "anio": 2020,
+      "nombre": "CCNAv7: Enterprise Networking, Security, and Automation",
+      "institucion": "Cisco"
+    },
+    {
+      "anio": 2021,
+      "nombre": "Data Science Foundations",
+      "institucion": "IBM"
+    },
+    {
+      "anio": 2021,
+      "nombre": "Big Data Foundations",
+      "institucion": "IBM"
+    },
+    {
+      "anio": 2021,
+      "nombre": "EGEL de Licenciatura en Ingeniería Computacional con resultado Sobresaliente",
+      "institucion": "CENEVAL"
+    },
+    {
+      "anio": 2024,
+      "nombre": "Escuela de Cómputo Cuántico",
+      "institucion": "CECAv"
+    },
+    {
+      "periodo": {
+        "inicio": 2025,
+        "fin": null,
+        "actual": true
+      },
+      "nombre": "Diplomado en Ciencia de Datos",
+      "institucion": "FES Acatlán"
+    }
+  ]
+}

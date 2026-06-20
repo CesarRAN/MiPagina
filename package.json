@@ -1,0 +1,18 @@
+{
+  "name": "mi-pagina",
+  "version": "1.0.0",
+  "description": "Página web personal con parallax, responsive y tema oscuro verde lima",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/styles.css -o ./css/output.css --watch",
+    "build:prod": "npx tailwindcss -i ./css/styles.css -o ./css/output.css --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "jsdom": "^29.1.1",
+    "playwright": "^1.61.0"
+  }
+}

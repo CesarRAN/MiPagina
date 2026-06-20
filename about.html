@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Mí | Cesar Altamirano</title>
+  <meta name="description" content="Conoce más sobre mi trayectoria y habilidades como Data Analyst y Data Scientist">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+  <link href="css/output.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-dark-900 text-dark-50">
+
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-dark-900/80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="text-2xl font-heading font-bold gradient-text">CA</a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" data-nav-link data-i18n="nav.home" class="nav-link">Inicio</a>
+          <a href="about.html" data-nav-link data-i18n="nav.about" class="nav-link active">Sobre Mí</a>
+          <a href="experience.html" data-nav-link data-i18n="nav.experience" class="nav-link">Experiencia</a>
+          <a href="projects.html" data-nav-link data-i18n="nav.projects" class="nav-link">Proyectos</a>
+          <a href="education.html" data-nav-link data-i18n="nav.education" class="nav-link">Formación</a>
+          <a href="contact.html" data-nav-link data-i18n="nav.contact" class="nav-link">Contacto</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <button id="lang-toggle" class="px-3 py-1 border-2 border-lime-500 text-lime-500 rounded-lg text-sm font-bold hover:bg-lime-500 hover:text-dark-900 transition-all duration-300">EN</button>
+          <button id="menu-btn" class="md:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5">
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300 origin-center"></span>
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300"></span>
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300 origin-center"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden flex-col md:hidden bg-dark-800/95 backdrop-blur-lg border-t border-dark-400/30">
+      <div class="px-4 py-6 space-y-4">
+        <a href="index.html" data-nav-link data-i18n="nav.home" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Inicio</a>
+        <a href="about.html" data-nav-link data-i18n="nav.about" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Sobre Mí</a>
+        <a href="experience.html" data-nav-link data-i18n="nav.experience" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Experiencia</a>
+        <a href="projects.html" data-nav-link data-i18n="nav.projects" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Proyectos</a>
+        <a href="education.html" data-nav-link data-i18n="nav.education" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Formación</a>
+        <a href="contact.html" data-nav-link data-i18n="nav.contact" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="pt-32 pb-10 md:pt-40 md:pb-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="animate-on-scroll text-center mb-16">
+        <div class="lime-line mx-auto mb-6"></div>
+        <h1 class="section-title gradient-text" data-i18n="about.title">Sobre Mí</h1>
+        <p class="section-subtitle mx-auto" data-i18n="about.subtitle">Conoce más sobre mi trayectoria y pasiones</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-20 md:pb-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div class="animate-on-scroll from-left">
+          <div class="relative">
+            <div class="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-2xl overflow-hidden border-2 border-lime-500/30 shadow-lg shadow-lime-500/10">
+              <div class="w-full h-full bg-gradient-to-br from-lime-500/20 via-dark-500 to-dark-700 flex items-center justify-center">
+                <svg class="w-32 h-32 text-lime-500/50" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-lime-500/10 rounded-2xl border border-lime-500/20 animate-float"></div>
+            <div class="absolute -top-4 -left-4 w-16 h-16 bg-lime-500/10 rounded-xl border border-lime-500/20 animate-float" style="animation-delay: 1s;"></div>
+          </div>
+        </div>
+
+        <div class="animate-on-scroll from-right">
+          <p class="text-dark-100 text-lg leading-relaxed mb-6" data-i18n="about.description">
+            Soy un desarrollador con más de 5 años de experiencia en la creación de aplicaciones web y móviles. Me especializo en tecnologías modernas como React, Node.js y Python, siempre buscando la excelencia en cada línea de código.
+          </p>
+          <p class="text-dark-100 text-lg leading-relaxed mb-8" data-i18n="about.description2">
+            Mi filosofía se centra en crear soluciones que no solo funcionen perfectamente, sino que tambien ofrezcan una experiencia de usuario excepcional. Creo que el mejor código es aquel que no se nota, porque simplemente funciona.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="experience.html" class="btn-primary">Experiencia</a>
+            <a href="contact.html" class="btn-outline">Contáctame</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-32 bg-dark-700/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="animate-on-scroll text-center mb-12">
+        <h2 class="text-3xl font-heading font-bold gradient-text mb-2" data-i18n="about.skills">Habilidades</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="animate-on-scroll from-left glass-card p-6">
+          <h3 class="text-xl font-bold text-lime-400 mb-6">Datos y Análisis</h3>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Python / Análisis de Datos</span><span class="text-lime-400">95%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:95%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Excel / BigQuery</span><span class="text-lime-400">92%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:92%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Looker Studio / Visualización</span><span class="text-lime-400">88%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:88%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Machine Learning / Estadística</span><span class="text-lime-400">85%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="animate-on-scroll from-right glass-card p-6">
+          <h3 class="text-xl font-bold text-lime-400 mb-6">Automatización y Herramientas</h3>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Selenium / Web Scraping</span><span class="text-lime-400">90%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:90%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Git / Unix & Linux</span><span class="text-lime-400">85%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:85%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>Julia / Cómputo Científico</span><span class="text-lime-400">80%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:80%"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1"><span>SQL / Bases de Datos</span><span class="text-lime-400">82%</span></div>
+              <div class="w-full bg-dark-500 rounded-full h-2"><div class="bg-gradient-to-r from-lime-500 to-lime-400 h-2 rounded-full" style="width:82%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="animate-on-scroll text-center" data-delay="0">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="3" data-suffix="+">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.years">Años de<br>Experiencia</p>
+        </div>
+        <div class="animate-on-scroll text-center" data-delay="150">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="3" data-suffix="+">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.projects">Proyectos<br>Principales</p>
+        </div>
+        <div class="animate-on-scroll text-center" data-delay="300">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="2">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.clients">Grados<br>Académicos</p>
+        </div>
+        <div class="animate-on-scroll text-center" data-delay="450">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="8" data-suffix="+">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.technologies">Tecnologías<br>Dominadas</p>
+        </div>
+      </div>
+
+      <div class="mt-20 animate-on-scroll">
+        <h3 class="text-2xl font-heading font-bold text-center gradient-text mb-8" data-i18n="about.softSkills">Habilidades Blandas</h3>
+        <div class="flex flex-wrap justify-center gap-3" data-i18n-list="about.softSkillsList">
+          <span class="skill-tag">Trabajo en equipo</span>
+          <span class="skill-tag">Autodidacta</span>
+          <span class="skill-tag">Responsable</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 border-t border-dark-400/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-dark-100 text-sm">
+          &copy; <span id="year"></span> <span data-i18n="hero.name">Cesar Altamirano</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span>
+        </div>
+        <div class="text-dark-100 text-sm flex items-center gap-1">
+          <span data-i18n="footer.madeWith">Hecho con</span>
+          <span class="text-lime-500">&hearts;</span>
+          <span data-i18n="footer.and">y</span>
+          <span class="text-lime-500">&lt;/&gt;</span>
+        </div>
+        <div class="flex space-x-6">
+          <a href="https://github.com/CesarRAN" target="_blank" rel="noopener noreferrer" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">GitHub</a>
+          <a href="#" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">LinkedIn</a>
+          <a href="#" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/parallax.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

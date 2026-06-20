@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cesar Altamirano | Data Analyst / Data Scientist</title>
+  <meta name="description" content="Página web personal - Data Analyst y Data Scientist apasionado por el análisis de datos, el Machine Learning y la investigación de operaciones">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+  <link href="css/output.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-dark-900 text-dark-50">
+
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-dark-900/80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="text-2xl font-heading font-bold gradient-text">CA</a>
+
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" data-nav-link data-i18n="nav.home" class="nav-link active">Inicio</a>
+          <a href="about.html" data-nav-link data-i18n="nav.about" class="nav-link">Sobre Mí</a>
+          <a href="experience.html" data-nav-link data-i18n="nav.experience" class="nav-link">Experiencia</a>
+          <a href="projects.html" data-nav-link data-i18n="nav.projects" class="nav-link">Proyectos</a>
+          <a href="education.html" data-nav-link data-i18n="nav.education" class="nav-link">Formación</a>
+          <a href="contact.html" data-nav-link data-i18n="nav.contact" class="nav-link">Contacto</a>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <button id="lang-toggle" class="px-3 py-1 border-2 border-lime-500 text-lime-500 rounded-lg text-sm font-bold hover:bg-lime-500 hover:text-dark-900 transition-all duration-300">EN</button>
+
+          <button id="menu-btn" class="md:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5">
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300 origin-center"></span>
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300"></span>
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300 origin-center"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden flex-col md:hidden bg-dark-800/95 backdrop-blur-lg border-t border-dark-400/30">
+      <div class="px-4 py-6 space-y-4">
+        <a href="index.html" data-nav-link data-i18n="nav.home" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Inicio</a>
+        <a href="about.html" data-nav-link data-i18n="nav.about" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Sobre Mí</a>
+        <a href="experience.html" data-nav-link data-i18n="nav.experience" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Experiencia</a>
+        <a href="projects.html" data-nav-link data-i18n="nav.projects" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Proyectos</a>
+        <a href="education.html" data-nav-link data-i18n="nav.education" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Formación</a>
+        <a href="contact.html" data-nav-link data-i18n="nav.contact" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="parallax-container min-h-screen flex items-center justify-center relative overflow-hidden">
+    <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80');" data-parallax="0.3"></div>
+    <div class="parallax-overlay"></div>
+    <div class="absolute inset-0 bg-grid-pattern opacity-20 z-[1]"></div>
+
+    <div class="parallax-content text-center px-4 max-w-4xl mx-auto">
+      <div class="animate-on-scroll" data-delay="0">
+        <p class="text-lg md:text-xl text-lime-400 mb-4 font-medium" data-i18n="hero.greeting">Hola, soy</p>
+      </div>
+
+      <div class="animate-on-scroll" data-delay="200">
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6">
+          <span class="gradient-text" data-i18n="hero.name">Cesar Altamirano</span>
+        </h1>
+      </div>
+
+      <div class="animate-on-scroll" data-delay="400">
+        <p class="text-2xl md:text-3xl text-dark-100 mb-6 font-light">
+          <span id="typewriter" class="text-lime-400"></span>
+          <span class="animate-pulse text-lime-400">|</span>
+        </p>
+      </div>
+
+      <div class="animate-on-scroll" data-delay="600">
+        <p class="text-lg md:text-xl text-dark-100 max-w-2xl mx-auto mb-10" data-i18n="hero.description">
+          Apasionado por crear experiencias digitales innovadoras, combinando diseño creativo con tecnología de vanguardia.
+        </p>
+      </div>
+
+      <div class="animate-on-scroll flex flex-col sm:flex-row gap-4 justify-center" data-delay="800">
+        <a href="projects.html" class="btn-primary text-center" data-i18n="hero.cta1">Ver Proyectos</a>
+        <a href="contact.html" class="btn-outline text-center" data-i18n="hero.cta2">Contáctame</a>
+      </div>
+
+      <div class="animate-on-scroll mt-16" data-delay="1000">
+        <a href="#summary" class="inline-flex flex-col items-center text-dark-100 hover:text-lime-500 transition-colors group">
+          <span class="text-sm mb-2" data-i18n="hero.scroll">Desplázate hacia abajo</span>
+          <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-dark-900 to-transparent z-[3]"></div>
+  </section>
+
+  <section id="summary" class="py-20 md:py-32 relative">
+    <div class="absolute inset-0 bg-grid-pattern opacity-10"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16">
+        <div class="animate-on-scroll">
+          <div class="lime-line mx-auto mb-6"></div>
+          <h2 class="section-title gradient-text" data-i18n="nav.about">Sobre Mí</h2>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="animate-on-scroll text-center" data-delay="0">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="3" data-suffix="+">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.years">Años de<br>Experiencia</p>
+        </div>
+        <div class="animate-on-scroll text-center" data-delay="150">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="3" data-suffix="+">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.projects">Proyectos<br>Principales</p>
+        </div>
+        <div class="animate-on-scroll text-center" data-delay="300">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="2">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.clients">Grados<br>Académicos</p>
+        </div>
+        <div class="animate-on-scroll text-center" data-delay="450">
+          <div class="text-4xl md:text-5xl font-bold text-lime-400 mb-2" data-count="8" data-suffix="+">0</div>
+          <p class="text-dark-100 text-sm md:text-base" data-i18n-count="about.stats.technologies">Tecnologías<br>Dominadas</p>
+        </div>
+      </div>
+
+      <div class="mt-16 text-center animate-on-scroll" data-delay="600">
+        <a href="about.html" class="btn-outline">Conoce más &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-32 relative overflow-hidden">
+    <div class="parallax-container absolute inset-0">
+      <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1920&q=80');" data-parallax="0.2"></div>
+      <div class="parallax-overlay" style="background: linear-gradient(135deg, rgba(10,10,10,0.92) 0%, rgba(26,26,46,0.95) 100%);"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center mb-12">
+        <div class="animate-on-scroll">
+          <h2 class="section-title" data-i18n="nav.projects">Proyectos</h2>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div class="animate-on-scroll glass-card-hover p-6" data-delay="0" data-tilt>
+          <div class="text-lime-400 text-sm font-semibold mb-2 uppercase tracking-wider">Data Analysis</div>
+          <h3 class="text-xl font-bold mb-2">Análisis de Datos Financieros</h3>
+          <p class="text-dark-100 text-sm mb-4">Dashboards y consultas para seguimiento de indicadores financieros y automatización de reportes.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2 py-1 bg-dark-500/50 text-lime-400 rounded-md">Python</span>
+            <span class="text-xs px-2 py-1 bg-dark-500/50 text-lime-400 rounded-md">BigQuery</span>
+            <span class="text-xs px-2 py-1 bg-dark-500/50 text-lime-400 rounded-md">Looker Studio</span>
+          </div>
+        </div>
+
+        <div class="animate-on-scroll glass-card-hover p-6" data-delay="150" data-tilt>
+          <div class="text-lime-400 text-sm font-semibold mb-2 uppercase tracking-wider">Web Scraping</div>
+          <h3 class="text-xl font-bold mb-2">Extracción de Datos Financieros</h3>
+          <p class="text-dark-100 text-sm mb-4">Automatización de extracción de información de productos financieros mediante web scraping.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs px-2 py-1 bg-dark-500/50 text-lime-400 rounded-md">Python</span>
+            <span class="text-xs px-2 py-1 bg-dark-500/50 text-lime-400 rounded-md">Selenium</span>
+            <span class="text-xs px-2 py-1 bg-dark-500/50 text-lime-400 rounded-md">Beautiful Soup</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-10 animate-on-scroll" data-delay="300">
+        <a href="projects.html" class="btn-outline" data-i18n="projects.viewAll">Ver Todos los Proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 border-t border-dark-400/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-dark-100 text-sm">
+          &copy; <span id="year"></span> <span data-i18n="hero.name">Cesar Altamirano</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span>
+        </div>
+        <div class="text-dark-100 text-sm flex items-center gap-1">
+          <span data-i18n="footer.madeWith">Hecho con</span>
+          <span class="text-lime-500">&hearts;</span>
+          <span data-i18n="footer.and">y</span>
+          <span class="text-lime-500">&lt;/&gt;</span>
+        </div>
+        <div class="flex space-x-6">
+          <a href="https://github.com/CesarRAN" target="_blank" rel="noopener noreferrer" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">GitHub</a>
+          <a href="#" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">LinkedIn</a>
+          <a href="#" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/parallax.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formación | Cesar Altamirano</title>
+  <meta name="description" content="Mi preparación académica y certificaciones">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+  <link href="css/output.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-dark-900 text-dark-50">
+
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-dark-900/80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="text-2xl font-heading font-bold gradient-text">CA</a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" data-nav-link data-i18n="nav.home" class="nav-link">Inicio</a>
+          <a href="about.html" data-nav-link data-i18n="nav.about" class="nav-link">Sobre Mí</a>
+          <a href="experience.html" data-nav-link data-i18n="nav.experience" class="nav-link">Experiencia</a>
+          <a href="projects.html" data-nav-link data-i18n="nav.projects" class="nav-link">Proyectos</a>
+          <a href="education.html" data-nav-link data-i18n="nav.education" class="nav-link active">Formación</a>
+          <a href="contact.html" data-nav-link data-i18n="nav.contact" class="nav-link">Contacto</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <button id="lang-toggle" class="px-3 py-1 border-2 border-lime-500 text-lime-500 rounded-lg text-sm font-bold hover:bg-lime-500 hover:text-dark-900 transition-all duration-300">EN</button>
+          <button id="menu-btn" class="md:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1.5">
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300 origin-center"></span>
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300"></span>
+            <span class="menu-bar block w-6 h-0.5 bg-lime-500 transition-all duration-300 origin-center"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden flex-col md:hidden bg-dark-800/95 backdrop-blur-lg border-t border-dark-400/30">
+      <div class="px-4 py-6 space-y-4">
+        <a href="index.html" data-nav-link data-i18n="nav.home" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Inicio</a>
+        <a href="about.html" data-nav-link data-i18n="nav.about" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Sobre Mí</a>
+        <a href="experience.html" data-nav-link data-i18n="nav.experience" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Experiencia</a>
+        <a href="projects.html" data-nav-link data-i18n="nav.projects" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Proyectos</a>
+        <a href="education.html" data-nav-link data-i18n="nav.education" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Formación</a>
+        <a href="contact.html" data-nav-link data-i18n="nav.contact" class="block text-lg text-dark-100 hover:text-lime-500 transition-colors py-2">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="parallax-container pt-32 pb-20 md:pt-44 md:pb-32 relative overflow-hidden">
+    <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1523050854058-2cb4888a4b65?w=1920&q=80');" data-parallax="0.3"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="animate-on-scroll text-center">
+        <div class="lime-line mx-auto mb-6"></div>
+        <h1 class="section-title gradient-text" data-i18n="education.title">Formación</h1>
+        <p class="section-subtitle mx-auto" data-i18n="education.subtitle">Mi preparación académica y certificaciones</p>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-dark-900 to-transparent"></div>
+  </section>
+
+  <section class="py-20 md:py-32">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-12">
+        <h2 class="text-2xl font-heading font-bold text-lime-400 mb-8">
+          <span class="gradient-text" data-i18n="education.degrees">Educación</span>
+        </h2>
+      </div>
+
+      <div id="education-items" class="space-y-6 mb-16">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-dark-700/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="animate-on-scroll">
+        <p class="text-dark-100 text-lg mb-6">¿Quieres trabajar conmigo?</p>
+        <a href="contact.html" class="btn-outline" data-i18n="nav.contact">Contacto</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 border-t border-dark-400/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-dark-100 text-sm">
+          &copy; <span id="year"></span> <span data-i18n="hero.name">Cesar Altamirano</span>. <span data-i18n="footer.rights">Todos los derechos reservados.</span>
+        </div>
+        <div class="text-dark-100 text-sm flex items-center gap-1">
+          <span data-i18n="footer.madeWith">Hecho con</span>
+          <span class="text-lime-500">&hearts;</span>
+          <span data-i18n="footer.and">y</span>
+          <span class="text-lime-500">&lt;/&gt;</span>
+        </div>
+        <div class="flex space-x-6">
+          <a href="https://github.com/CesarRAN" target="_blank" rel="noopener noreferrer" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">GitHub</a>
+          <a href="#" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">LinkedIn</a>
+          <a href="#" class="text-dark-100 hover:text-lime-500 transition-colors text-sm">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/parallax.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
